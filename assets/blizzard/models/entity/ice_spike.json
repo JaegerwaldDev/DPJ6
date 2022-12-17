@@ -1,0 +1,42 @@
+{
+	"credit": "Made by Jaegerwald",
+	"texture_size": [8, 8],
+	"textures": {
+		"0": "blizzard:entity/ice_spike",
+		"particle": "blizzard:entity/ice_spike"
+	},
+	"elements": [
+		{
+			"from": [8, 4, 6.5],
+			"to": [8, 12, 9.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"east": {"uv": [6, 0, 12, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 6, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 0], "rotation": 270, "texture": "#missing"},
+				"down": {"uv": [0, 0, 6, 0], "rotation": 90, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [6.5, 4, 8],
+			"to": [9.5, 12, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 6, 0], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 6, 0], "rotation": 180, "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"head": {
+			"translation": [0, -48, 0]
+		}
+	}
+}
