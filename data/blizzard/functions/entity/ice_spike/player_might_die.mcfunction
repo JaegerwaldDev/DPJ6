@@ -1,0 +1,2 @@
+execute if entity @s[tag=blizzard.entity.ice_spike.might_die] if score @s blizzard.entity.ice_spike.death matches 1.. run tellraw @a {"translate":"death.attack.fallingIceSpike","with":[{"selector":"@s"}]}
+execute if score @s blizzard.entity.ice_spike.death matches 1.. run scoreboard players set @s[tag=blizzard.entity.ice_spike.might_die] blizzard.entity.ice_spike.death 0

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:420}}]}

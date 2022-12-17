@@ -1,0 +1,1 @@
+execute at @s if predicate blizzard:equipped_test if score @s blizzard.carrot_on_a_stick matches 1 if block ~ ~ ~ air unless block ~ ~-1 ~ air run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:snow"},Time:1}
