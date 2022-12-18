@@ -1,0 +1,20 @@
+{
+    "providers": [
+	{
+            "type": "bitmap",
+            "file": "blizzard:gui/slot_frozen.png",
+            "ascent": 8,
+	    "height": 64,
+            "chars": ["\uE420"],
+            "shift": [0.0, 0.0]
+	},
+	{
+            "type": "bitmap",
+            "file": "blizzard:gui/slot_gesperrt.png",
+            "ascent": 8,
+	    "height": 128,
+            "chars": ["\uE421"],
+            "shift": [0.0, 0.0]
+	}
+    ]
+}
